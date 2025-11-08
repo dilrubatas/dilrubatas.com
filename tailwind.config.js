@@ -1,0 +1,65 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#eff6ff',
+          100: '#dbeafe',
+          200: '#bfdbfe',
+          300: '#93c5fd',
+          400: '#60a5fa',
+          500: '#3b82f6',
+          600: '#2563eb',
+          700: '#1d4ed8',
+          800: '#1e40af',
+          900: '#1e3a8a',
+        },
+        academic: {
+          50: '#f8fafc',
+          100: '#f1f5f9',
+          200: '#e2e8f0',
+          300: '#cbd5e1',
+          400: '#94a3b8',
+          500: '#64748b',
+          600: '#475569',
+          700: '#334155',
+          800: '#1e293b',
+          900: '#0f172a',
+        }
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        serif: ['Georgia', 'serif'],
+      },
+    },
+  },
+  safelist: [
+    'bg-blue-600', 'bg-purple-600', 'bg-indigo-700', 'bg-blue-900', 'bg-purple-900', 'bg-indigo-900',
+    'text-white', 'text-blue-900', 'text-white/90', 'text-white/80', 'text-white/85', 'text-white/95',
+    'border-white', 'border-white/20', 'border-white/30', 'border-white/10', 'border-2', 'border-4',
+    'from-blue-600', 'from-purple-600', 'from-indigo-700', 'from-blue-900', 'from-purple-900', 'from-indigo-900',
+    'to-blue-600', 'to-purple-600', 'to-indigo-700', 'to-blue-900', 'to-purple-900', 'to-indigo-900',
+    'via-purple-600', 'via-purple-900',
+    'rounded-full', 'rounded-xl', 'rounded-2xl', 'rounded-3xl',
+    'shadow-lg', 'shadow-2xl', 'backdrop-blur-sm', 'backdrop-blur-md',
+    'hover:bg-white', 'hover:bg-blue-50', 'hover:text-blue-600', 'hover:text-blue-900',
+    'hover:scale-105', 'hover:shadow-blue-500/25', 'hover:-translate-y-2',
+    'animate-pulse', 'animate-float', 'animate-glow',
+    'bg-gradient-to-br', 'bg-gradient-to-r', 'bg-clip-text', 'text-transparent',
+    'bg-blue-500/10', 'bg-purple-500/10', 'bg-indigo-500/10',
+    'blur-3xl', 'blur-xl', 'opacity-30',
+    'w-48', 'h-48', 'w-72', 'h-72', 'w-96', 'h-96', 'w-80', 'h-80',
+    'delay-500', 'delay-1000',
+    'min-h-screen', 'pt-20', 'z-10',
+    'bg-white/10', 'bg-white/20',
+    'transform', '-translate-x-1/2', '-translate-y-1/2',
+    'group-hover:translate-x-1',
+  ],
+  plugins: [],
+} 

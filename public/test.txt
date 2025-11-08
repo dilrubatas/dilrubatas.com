@@ -1,0 +1,2 @@
+This is a test file to verify that static files are being served correctly from GitHub Pages.
+If you can see this file, then the static file serving is working properly. 
